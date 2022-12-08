@@ -2,6 +2,20 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <proxies>
+    
+     
+	<proxy>
+      <id>fastweb-http</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>fastweb.int.bell.ca</host>
+      <port>80</port>
+      <nonProxyHosts>localhost|127.0.0.1|*.svc|*.cluster.local|*.int.bell.ca |*.dev.bce.ca|*.corp.bce.ca</nonProxyHosts>
+    </proxy>
+
+  </proxies>
+  
   <profiles>
     <profile>
       <id>definedInM2SettingsXML</id>
@@ -15,4 +29,7 @@
       </properties>
     </profile>
   </profiles>
+  
+  
+  
 </settings>

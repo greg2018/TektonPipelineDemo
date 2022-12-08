@@ -1,3 +1,5 @@
+http://localhost:8080/tekton/status/check
+
 #Health check
 http://localhost:8080/actuator
 http://localhost:8080/actuator/health/liveness

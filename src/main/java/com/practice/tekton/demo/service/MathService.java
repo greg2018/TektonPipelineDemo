@@ -16,4 +16,8 @@ public class MathService {
     public int addUp(int firstNumber, int secondNumber) {
         return firstNumber+secondNumber;
     }
+    
+    public int divide(int firstNumber, int secondNumber) {
+        return firstNumber/secondNumber;
+    }
 }

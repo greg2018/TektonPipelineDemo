@@ -29,4 +29,10 @@ public class MathServiceTest {
         int result = mathService.addUp(10, 8);
         org.junit.jupiter.api.Assertions.assertEquals(result, 18);   
     }
+    
+    @Test
+    public void testDivide() {
+        int result = mathService.divide(10, 2);
+        org.junit.jupiter.api.Assertions.assertEquals(result, 5);   
+    }
 }

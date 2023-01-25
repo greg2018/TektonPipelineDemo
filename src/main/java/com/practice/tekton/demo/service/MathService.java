@@ -23,6 +23,10 @@ public class MathService {
         return firstNumber+secondNumber;
     }
     
+    public int addUpThree(int firstNumber, int secondNumber,int thirdNumber) {
+        return firstNumber+secondNumber+thirdNumber;
+    }
+    
     public int divide(int firstNumber, int secondNumber) {
         return firstNumber/secondNumber;
     }

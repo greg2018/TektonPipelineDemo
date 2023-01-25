@@ -37,6 +37,12 @@ public class MathServiceTest {
     }
     
     @Test
+    public void testAddUpThree() {
+        int result = mathService.addUpThree(1, 2, 3);
+        org.junit.jupiter.api.Assertions.assertEquals(result, 6);   
+    }
+    
+    @Test
     public void testDivide() {
         int result = mathService.divide(10, 2);
         org.junit.jupiter.api.Assertions.assertEquals(result, 5);   

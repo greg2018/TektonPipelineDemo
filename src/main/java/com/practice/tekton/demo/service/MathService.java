@@ -8,6 +8,12 @@ public class MathService {
 
         return firstNumber * secondNumber;
     }
+    
+    public int multiplyThree(int firstNumber, int secondNumber, int thirdNumber) {
+
+        return firstNumber * secondNumber*thirdNumber;
+    }
+    
 
     public int subtract(int firstNumber, int secondNumber) {
         return firstNumber - secondNumber;

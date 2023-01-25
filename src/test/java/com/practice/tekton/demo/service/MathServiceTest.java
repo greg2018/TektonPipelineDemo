@@ -19,6 +19,12 @@ public class MathServiceTest {
     }
     
     @Test
+    public void testMultipliesNumbersThree() {
+        int result = mathService.multiplyThree(2, 3, 4);
+        org.junit.jupiter.api.Assertions.assertEquals(result, 24);   
+    }
+    
+    @Test
     public void testSubtractNumbers() {
         int result = mathService.subtract(10, 4);
         org.junit.jupiter.api.Assertions.assertEquals(result, 6);   

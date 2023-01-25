@@ -1,3 +1,7 @@
+http://localhost:8080/tekton/status/check
+
+http://tektonpipelinedemo-bbmspio.apps.ocp-dev-ade.belldev.dev.bce.ca/actuator
+
 #Health check
 http://localhost:8080/actuator
 http://localhost:8080/actuator/health/liveness
